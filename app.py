@@ -1,6 +1,4 @@
-from pymongo import MongoClient
-client = MongoClient('mongodb+srv://riskiwe0:riskipipo@cluster0.fca6kp0.mongodb.net/?retryWrites=true&w=majority')
-db = client.dbsparta 
+
 from flask import Flask, render_template, request, jsonify
 import requests
 from bs4 import BeautifulSoup
